@@ -1,0 +1,16 @@
+package optionalClasses;
+
+import java.util.Optional;
+
+public class OptionalArray {
+	public static void main(String[] args) {
+
+        String[] names = new String[5];
+
+        Optional<String> name = Optional.ofNullable(names[0]);
+
+        System.out.println(name.map(String::length).orElse(0));
+    }
+
+
+}
