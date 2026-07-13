@@ -1,9 +1,9 @@
-package logicBuilding;
+package logicBuildingDay2;
 
-public class AlternateNumbers {
+public class SkippingNumbers {
 	public static void main(String[] args) {
 
-        for (int i = 1; i <= 99; i += 2) {
+        for (int i = 100; i >= 1; i -= 3) {
             System.out.print(i + " ");
         }
 

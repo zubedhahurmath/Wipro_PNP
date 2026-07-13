@@ -1,12 +1,11 @@
-package logicBuilding;
+package logicBuildingDay2;
 
-public class BackwardNumbers {
+public class PrintNumbers {
 	public static void main(String[] args) {
 
-        for (int i = 100; i >= 0; i--) {
+        for (int i = 1; i <= 100; i++) {
             System.out.print(i + " ");
         }
-
     }
 
 }

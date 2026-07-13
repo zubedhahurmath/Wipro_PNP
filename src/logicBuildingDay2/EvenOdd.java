@@ -1,4 +1,4 @@
-package logicBuilding;
+package logicBuildingDay2;
 
 import java.util.Scanner;
 public class EvenOdd {

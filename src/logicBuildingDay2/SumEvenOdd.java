@@ -1,8 +1,8 @@
-package logicBuilding;
+package logicBuildingDay2;
 
 import java.util.Scanner;
 
-public class GreaterNumber {
+public class SumEvenOdd {
 	public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -13,14 +13,17 @@ public class GreaterNumber {
         System.out.print("Enter second number: ");
         int num2 = sc.nextInt();
 
-        if (num1 > num2) {
-            System.out.println("Greater number is: " + num1);
-        } else if (num2 > num1) {
-            System.out.println("Greater number is: " + num2);
-        } else {
-            System.out.println("Both numbers are equal.");
-        }
-        sc.close();
-	}
-}
+        int sum = num1 + num2;
 
+        if (sum % 2 == 0) {
+            System.out.println("Sum = " + sum);
+            System.out.println("EVEN");
+        } else {
+            System.out.println("Sum = " + sum);
+            System.out.println("ODD");
+        }
+
+        sc.close();
+    }
+
+}

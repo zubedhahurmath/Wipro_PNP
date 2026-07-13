@@ -1,4 +1,4 @@
-package logicBuilding;
+package logicBuildingDay2;
 
 public class EvenNumbers {
 	 public static void main(String[] args) {
